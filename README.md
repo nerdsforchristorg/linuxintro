@@ -1,2 +1,5 @@
 # linuxintro
-Introduction to Linux
+## Introduction to Linux
+
+* Point 1
+* Point 2
