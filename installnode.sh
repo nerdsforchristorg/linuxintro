@@ -10,7 +10,7 @@ user_response_lower=$(echo "$user_response" | tr '[:upper:]' '[:lower:]')
 if [ "$user_response_lower" == "yes" ]; then
     echo "You chose to proceed."
     # Add your actions for 'yes' here
-    sudo ap install Node.js
+    sudo apt install Node.js
 elif [ "$user_response_lower" == "no" ]; then
     echo "You chose not to proceed."
     # Add your actions for 'no' here
